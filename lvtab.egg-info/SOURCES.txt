@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+lvtab.py
+setup.cfg
+setup.py
+lvtab.egg-info/PKG-INFO
+lvtab.egg-info/SOURCES.txt
+lvtab.egg-info/dependency_links.txt
+lvtab.egg-info/entry_points.txt
+lvtab.egg-info/requires.txt
+lvtab.egg-info/top_level.txt
