@@ -2,9 +2,15 @@
 
 Lettervalue tables from the command line.
 
-```
+# Introduction
 
-```
+The inspiration for this project came from the paper [Letter-value plots: Boxplots for large data](https://vita.had.co.nz/papers/letter-value-plot.pdf).
+
+It seemed like a good idea to not just have these letter-values for plotting, but also in tabular for as summary statistics. This was how letter values
+were originally introduced in to that world in [Exploratory Data Analysis](https://www.amazon.com/Exploratory-Data-Analysis-John-Tukey/dp/0201076160).
+For some reason they did not seem to catch on. Maybe this was becase the data at the time was smaller. Modern petabyte sized data vindicates letter values.
+
+This package aims to be a user friendly command line utility to generate these values.
 
 # Features
 
