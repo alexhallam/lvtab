@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lvtab"
+version = "0.1.0"
+description = "Tukey inspired, one-liner, pipe-able, tidy data compatible, letter-value tables."
+authors = ["Your Name <you@example.com>"]
+license = "LGPL"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.3"
+pandas = "^1.2.4"
+scipy = "^1.6.3"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

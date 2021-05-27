@@ -1,4 +1,4 @@
 Click
-pandas
 numpy
+pandas
 scipy

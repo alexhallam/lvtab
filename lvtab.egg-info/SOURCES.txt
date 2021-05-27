@@ -1,8 +1,10 @@
 LICENSE.txt
 README.md
+diamonds.csv
 lvtab.py
 setup.cfg
 setup.py
+examples/example.md
 lvtab.egg-info/PKG-INFO
 lvtab.egg-info/SOURCES.txt
 lvtab.egg-info/dependency_links.txt
