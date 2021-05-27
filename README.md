@@ -37,9 +37,14 @@ See all options with `lv --help`
 
 # Pair with `tv` for pretty printing
 
+I have been working on [tv](https://github.com/alexhallam/tv) to make printing of csv files pretty in the command line. I use `lvtab` with `tv`.
+
 ```
 cat diamonds.csv | lv --y price | tv
 ```
+
+![lv](https://user-images.githubusercontent.com/9298693/119739666-8bf9d800-be50-11eb-8b79-236218e53af5.PNG)
+
 
 # Installation
 
