@@ -48,7 +48,9 @@ tail_area_odds,lower_quantile,upper_quantile,lower_value,upper_value
 ```
 
 `tail_area_odds` - odds are 1:x that a value is outside the range of the `lower_value` and `upper_value`
+
 `*_quantile` - quantile of cut
+
 `*_value` - the value of the cut at the given quantiles
 
 See all options with `lvtab --help`
