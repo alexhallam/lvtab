@@ -30,7 +30,10 @@ pip3 install lvtab
 
 # ungrouped lv table
 cat diamonds.csv | lvtab --y price
+```
 
+results:
+```
 tail_area_odds,lower_quantile,upper_quantile,lower_value,upper_value
 4,0.25001,0.75001,950.0,5324.74999
 8,0.12501,0.87501,694.0,8687.12499
@@ -42,8 +45,11 @@ tail_area_odds,lower_quantile,upper_quantile,lower_value,upper_value
 512,0.00197,0.99805,376.0,18489.00779
 1024,0.00099,0.99903,364.49901,18668.51071
 2048,0.0005,0.99952,356.999,18741.0
-
 ```
+
+`tail_area_odds` - odds are 1:x that a value is outside the range of the `lower_value` and `upper_value`
+`*_quantile` - quantile of cut
+`*_value` - the value of the cut at the given quantiles
 
 See all options with `lvtab --help`
 
