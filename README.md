@@ -47,11 +47,11 @@ tail_area_odds,lower_quantile,upper_quantile,lower_value,upper_value
 2048,0.0005,0.99952,356.999,18741.0
 ```
 
-`tail_area_odds` - odds are *1 in `tail_area_odds`* that a value is either lower than the `lower_value` or higher than the `upper_value`. For example if the `tail_area_odds` are 4 then the tail area is ~ 0.25 or 1/4. This is saying that we cut the data into 4 parts where a quarter of it is less than the lower value and a quarter is higher than the upper value -- aka 1/4 on either end.
+1. `tail_area_odds` - odds are *1 in `tail_area_odds`* that a value is either lower than the `lower_value` or higher than the `upper_value`. For example if the `tail_area_odds` are 4 then the tail area is ~ 0.25 or 1/4. This is saying that we cut the data into 4 parts where a quarter of it is less than the lower value and a quarter is higher than the upper value -- aka 1/4 on either end.
 
-`*_quantile` - quantile of cut
+2. `*_quantile` - quantile of cut
 
-`*_value` - the value of the cut at the given quantiles
+3. `*_value` - the value of the cut at the given quantiles
 
 See all options with `lvtab --help`
 
