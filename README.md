@@ -29,18 +29,18 @@ wget https://raw.githubusercontent.com/tidyverse/ggplot2/master/data-raw/diamond
 pip3 install lvtab 
 
 # ungrouped lv table
-cat diamonds.csv | lv --y price
+cat diamonds.csv | lvtab --y price
 
 ```
 
-See all options with `lv --help`
+See all options with `lvtab --help`
 
 # Pair with `tv` for pretty printing
 
 I have been working on [tv](https://github.com/alexhallam/tv) to make printing of csv files pretty in the command line. I use `lvtab` with `tv`.
 
 ```
-cat diamonds.csv | lv --y price | tv
+cat diamonds.csv | lvtab --y price | tv
 ```
 
 ![lv](https://user-images.githubusercontent.com/9298693/119739666-8bf9d800-be50-11eb-8b79-236218e53af5.PNG)
