@@ -2,6 +2,12 @@ from setuptools import setup
 from setuptools.command.install import install
 import os
 
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
+
+# The text of the README file
+README = (HERE / "README.md").read_text()
+
 setup(
     name="lvtab",
     version="0.0.1",
