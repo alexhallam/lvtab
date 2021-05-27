@@ -47,7 +47,7 @@ tail_area_odds,lower_quantile,upper_quantile,lower_value,upper_value
 2048,0.0005,0.99952,356.999,18741.0
 ```
 
-`tail_area_odds` - odds are 1:x that a value is outside the range of the `lower_value` and `upper_value`
+`tail_area_odds` - odds are *1 in `tail_area_odds`* that a value is outside the range of the `lower_value` and `upper_value`. For example of the `tail_area_odds` are 4 then the tail area is ~ 0.25 or 1/4. 
 
 `*_quantile` - quantile of cut
 
