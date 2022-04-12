@@ -18,7 +18,7 @@ def main(y):
     n = len(data)
     k = np.floor(np.log2(n)) - 3
     alpha = 0.05
-    k = int(np.floor(np.log2(n) - np.log2(2 * (norm.ppf(q=1 - (alpha / 2)) ** 2))))
+    k = int(np.floor(np.log2(n) - np.log2(2 * (norm.ppf(q=1 - (alpha / 2)) ** 2))) + 1)
     lvl = (k - 1) * 2
     nq = lvl - 1
     qs = np.zeros(nq)  # initialize array of quantiles
